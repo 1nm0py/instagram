@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <title>Instagram Login - CodeWithJatin</title>
+</head>
+
+
+<body>
+    <div class="container d-none d-lg-block">
+        <main>
+            <img src="IG.jpeg" alt="" class="phoneImg">
+            <div class="form-div">
+                <form action="">
+                    <img class="instaLogo" src="instaLogo.png" alt="logo">
+                    <input type="text" class="input" placeholder="phone number, username, or email" required>
+                    <input type="password" class="input" required placeholder="Password">
+                    <button class="login-btn">Log In</button>
+                    <p id="or">or</p>
+                    <a href="#" class="fb-login"><i class='bx bxl-facebook-square'></i>Log in with Facebook</a>
+                </form>
+                <div class="sign-up">
+                    <p>Don't have an account? <a href="#" class="sign-link">Sign up</a></p>
+                </div>
+                <div class="get-app">
+                    <p>Get the app</p>
+                    <div class="store">
+                        <img id="play" src="playStore.png" alt="">
+                        <img id="microsoft" src="getMicrosoft.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="container d-block d-lg-none">
+        <div class="container">
+            <div class="center">
+                <div class="header">
+                    <img src="instagramlogo.png" alt="instagramLogo" class="instaLogo" />
+                </div>
+                <div class="inputElement">
+                    <input type="text" placeholder="Phone number,username or email" class="inputText" />
+                    <input type="password" placeholder="Password" class="inputText" />
+                    <button type="submit" value="Log in" class="inputButton" >Log in</button>
+                    <div class="line">
+                        <span class="arrow"></span>
+                        <span class="content">OR</span>
+                        <span class="arrow"></span>
+                    </div>
+                    <div class="social__icon">
+                        <i class="fab fa-facebook-square"></i><span>Log in with facebook</span>
+                    </div>
+                    <div class="forgetPassword">Forget Password?</div>
+                </div>
+            </div>
+            <div class="footer">
+                <p>Don't have a accout?<span>Sign Up</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+    <script src="./bootstrap/bootstrap.min.js"></script>
+</body>
+
+</html>
