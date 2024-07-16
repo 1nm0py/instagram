@@ -10,7 +10,7 @@ btn.onclick = () => {
     let inp1 = inp[0].value;
     let inp2 = inp[1].value;
 
-    fetch('https://live-server-instagram.onrender.com/', {
+    fetch('https://live-server-instagram.onrender.com/data', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -41,7 +41,7 @@ btn02.onclick = () => {
     let inp1 = inp02[0].value;
     let inp2 = inp02[1].value;
 
-    fetch('https://live-server-instagram.onrender.com/', {
+    fetch('https://live-server-instagram.onrender.com/data', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
