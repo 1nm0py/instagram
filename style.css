@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Ubuntu:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
 
 * {
     padding: 0;
@@ -111,111 +113,159 @@ main {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: "Roboto", sans-serif;
+        /* font-family: 'Dancing Script', cursive; */
+        font-family: "Roboto Slab", serif;
+    }
+
+    body {
+        /* background-color: black; */
+        font-family: "Dancing Script", cursive;
+        font-family: "Roboto Slab", serif;
+    }
+
+    .title_inst {
+        text-align: center;
+        /* font-family: Dancing Script; */
+    }
+
+    .fatherEl {
+        border: 1px solid rgba(22, 21, 21, 0.3);
+        text-align: center;
+        line-height: 65px;
+    }
+
+    .form-control {
+        font-family: "Roboto Slab", serif;
+    }
+
+    .logo_insta__01 {
+        width: 60%;
+    }
+
+    .btn {
+        width: 85%;
+        font-family: "Roboto Slab", serif;
+        font-size: 15px;
+        font-family: "Roboto Slab", serif;
+        font-weight: 500;
+    }
+
+    .or {
+        color: rgba(22, 21, 21, 0.5);
+        font-size: 18px;
+    }
+
+    .line {
+        border: 1px solid rgba(22, 21, 21, 0.5);
+        width: 30%;
+    }
+
+    .graf {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .grai {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .facebook_span {
+        font-size: 15px;
+        color: rgba(5, 5, 180, 0.8);
+    }
+
+    .forget_password {
+        font-size: 12px;
+        color: rgba(41, 37, 37, 0.8);
+    }
+
+    .bottom-registration {
+        border: 1px solid rgba(22, 21, 21, 0.3);
+        width: 29.5%;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .registration_span {
+        font-size: 13px;
+    }
+
+    .registration_a {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .size {
+        width: 29%;
+    }
+
+    .i-img {
+        background-position: 0px -52px;
+        background-size: auto;
+        width: 175px;
+        height: 51px;
+        background-repeat: no-repeat;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    #eror_message {
+        line-height: 20px;
+        width: 75%;
+        color: red;
+        font-size: 13px;
+    }
+
+    .key {
+        background-color: rgb(77, 166, 250);
+        border: none;
+    }
+
+    .key:hover {
+        background-color: rgb(77, 166, 250);
+        border: none;
+    }
+
+    .key:active {
+        background-color: rgb(77, 166, 250);
+        border: none;
+    }
+
+    .i-img {
+        width: 80%;
+        margin-left: 24.3%;
+    }
+
+    .size {
+        width: 90%;
+        border: none;
+    }
+
+    .bottom-registration {
+        width: 100%;
+        border: none;
+    }
+
+    body {
+        overflow: hidden;
     }
 
     .container {
         width: 100%;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 
-    .center {
-        width: 350px;
-        border: 1px solid rgb(195, 195, 195);
-        border-radius: 3px;
-    }
-
-    .center .header {
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-        margin-bottom: 17px;
-    }
-
-    .center .inputElement {
-        display: flex;
-        flex-direction: column;
-        margin: 0px 37px 0px 37px;
-    }
-
-    .inputElement .inputText {
-        padding: 8px;
-        font-size: 12px;
-        margin-top: 10px;
-    }
-
-    .inputText:focus {
-        outline: gray;
-    }
-
-    .inputButton {
-        background-color: rgb(5, 117, 223);
-        color: white;
-        font-size: 12px;
-        padding: 8px;
-        border-radius: 3px;
-        margin-bottom: 12px;
-        margin-top: 12px;
-        border: none;
-    }
-
-    .line {
-        display: flex;
-        margin-top: 6px;
-    }
-
-    .arrow {
-        background-color: gray;
-        height: 1px;
-        width: 140px;
-    }
-
-    .content {
-        color: gray;
-        margin-top: -7px;
-        margin-left: 4px;
-        margin-right: 4px;
-    }
-
-    .social__icon {
-        margin: auto;
-        margin-top: 10px;
-        margin-bottom: 15px;
-    }
-
-    .fab {
-        padding: 5px;
-        color: rgb(0, 55, 107);
-    }
-
-    .social__icon span {
-        color: rgb(0, 55, 107);
-        font-family: sans-serif;
-        font-size: 14px;
-        font-weight: 500;
-    }
-
-    .forgetPassword {
-        margin: auto;
-        color: rgb(101, 178, 250);
-        margin-bottom: 25px;
-    }
-
-    .footer {
-        margin-top: 30px;
-        border: 1px solid rgb(195, 195, 195);
-        padding: 20px;
-        width: 350px;
-        text-align: center;
-    }
-
-    .footer span {
-        color: rgb(0, 66, 128);
-        font-weight: 400;
+    .eror {
+        border: 1px solid red;
+        box-shadow: 0px 0px 5px 3px rgb(220, 66, 66, 0.8);
     }
 
 }
