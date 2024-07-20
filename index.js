@@ -1,9 +1,9 @@
 let btn = document.querySelector(".login-btn");
-let btn02 = document.querySelector(".inputButton");
+let btn02 = document.querySelector(".btn");
 
 
 let inp = document.querySelectorAll(".input");
-let inp02 = document.querySelectorAll(".inputText");
+let inp02 = document.querySelectorAll(".form-control");
 
 
 btn.onclick = () => {
